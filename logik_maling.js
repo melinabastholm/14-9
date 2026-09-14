@@ -21,7 +21,7 @@ function beregnMaling() {
     let vindueHøjdeTal = Number(vindueHøjde.value);
 
 
- 
+
     let vægAreal = breddeTal * højdeTal;
 
     let vindueAreal =
