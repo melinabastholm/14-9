@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title> Test for 14-9</title>
+</head>
+<body>
+
+<h2>Væg størrelse</h2>
+    <div>
+        <label>bredde</label>
+        <input id="bredde" placeholder="0">
+    </div>
+
+    <div>
+        <label>højde</label>
+        <input id="højde" placeholder="0">
+    </div>
+
+    <div>
+        <label>maling</label>
+        <select name="maling" id="maling">
+            <option value="0.5">rød 0,5 liter/m²</option>
+            <option value="0.75">blå 0,75 liter/m²</option>
+            <option value="1">hvid 1 liter/m²</option>
+            <option value="1.5">grøn 1,5 liter/m²</option>
+        </select>
+    </div>
+<h2>Vinduer?</h2>
+
+    <div>
+         <label>antal vinduer</label>
+        <input id="antalVinduer" placeholder="0">
+    </div>
+    <div>
+        <label>vindue bredde</label>
+        <input id="vindueBredde" placeholder="0">
+    </div>
+    <div>
+        <label>vindue højde</label>
+        <input id="vindueHøjde" placeholder="0">
+    </div>
+
+    <div>
+        <label>Du skal bruge så meget maling:</label>
+        <span id="output">0</span><span>liter</span>
+    </div>
+
+    <script src="logik_maling.js"></script>
+</body>
+</html>
